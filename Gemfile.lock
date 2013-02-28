@@ -137,6 +137,12 @@ GEM
     mime-types (1.21)
     mocha (0.10.5)
       metaclass (~> 0.0.1)
+    mongoid (3.0.23)
+      activemodel (~> 3.1)
+      moped (~> 1.2)
+      origin (~> 1.0)
+      tzinfo (~> 0.3.22)
+    moped (1.4.3)
     multi_json (1.6.1)
     multipart-post (1.2.0)
     net-scp (1.1.0)
@@ -151,6 +157,7 @@ GEM
       redis (< 4.0)
     newrelic_rpm (3.5.7.59)
     nokogiri (1.5.6)
+    origin (1.0.11)
     paul_revere (1.1)
       rails (~> 3.0)
     pg (0.14.1)
@@ -282,6 +289,7 @@ DEPENDENCIES
   launchy
   librato-rails
   mail
+  mongoid (~> 3.0.0)
   multi_json
   newrelic-redis
   newrelic_rpm
