@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 # ruby '1.9.3'
 
 gem 'rails', '~> 3.2'
-gem "mongoid", "~> 3.0.0"
 
 gem 'builder'
 gem 'bluepill'
@@ -32,7 +31,7 @@ gem 'validates_formatting_of'
 gem 'will_paginate'
 gem 'xml-simple'
 gem 'yajl-ruby', :require => 'yajl'
-gem 'sqlite3'
+
 
 # enable if on heroku, make sure to toss this into an initializer:
 #     Rails.application.config.middleware.use HerokuAssetCacher
