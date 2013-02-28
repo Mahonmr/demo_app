@@ -31,6 +31,7 @@ gem 'validates_formatting_of'
 gem 'will_paginate'
 gem 'xml-simple'
 gem 'yajl-ruby', :require => 'yajl'
+gem 'therubyracer' 
 
 
 # enable if on heroku, make sure to toss this into an initializer:
