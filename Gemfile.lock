@@ -137,12 +137,6 @@ GEM
     mime-types (1.21)
     mocha (0.10.5)
       metaclass (~> 0.0.1)
-    mongoid (3.0.23)
-      activemodel (~> 3.1)
-      moped (~> 1.2)
-      origin (~> 1.0)
-      tzinfo (~> 0.3.22)
-    moped (1.4.3)
     multi_json (1.6.1)
     multipart-post (1.2.0)
     net-scp (1.1.0)
@@ -157,7 +151,6 @@ GEM
       redis (< 4.0)
     newrelic_rpm (3.5.7.59)
     nokogiri (1.5.6)
-    origin (1.0.11)
     paul_revere (1.1)
       rails (~> 3.0)
     pg (0.14.1)
@@ -235,7 +228,6 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.7)
     state_machine (1.1.2)
     thor (0.17.0)
     tilt (1.3.4)
@@ -289,7 +281,6 @@ DEPENDENCIES
   launchy
   librato-rails
   mail
-  mongoid (~> 3.0.0)
   multi_json
   newrelic-redis
   newrelic_rpm
@@ -311,7 +302,6 @@ DEPENDENCIES
   rvm-capistrano
   shoulda
   sinatra
-  sqlite3
   timecop
   unicorn
   validates_formatting_of
