@@ -31,7 +31,7 @@ gem 'validates_formatting_of'
 gem 'will_paginate'
 gem 'xml-simple'
 gem 'yajl-ruby', :require => 'yajl'
-gem 'therubyracer' 
+
 
 
 # enable if on heroku, make sure to toss this into an initializer:
@@ -68,6 +68,9 @@ group :development, :test, :staging, :production do
   gem 'daemons'
   gem 'delayed_job'
   gem 'delayed_job_active_record'
+  gem 'pg'
+  gem 'uglifier'
+  gem 'therubyracer'
 
   gem 'newrelic_rpm'
   gem 'newrelic-redis'
